@@ -12,7 +12,7 @@ function ProductCard({ productId, name, categories, price, image, addToCart, get
     return (
         <Card className='product-item' sx={{ minWidth: 250 }}>
             <CardContent onClick={() => getDetail({ productId })}>
-                <div className='product-img'><img src={`http://localhost:3001/${image}`} alt="" /></div>
+                <div className='product-img'><img src={image} alt="" /></div>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
                     {categories}
                 </Typography>

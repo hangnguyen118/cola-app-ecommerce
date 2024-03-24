@@ -7,6 +7,9 @@ import { Route, Routes, Navigate, useNavigate } from 'react-router-dom';
 import { Shops, Checkout, ProductDetail, UpdateUser, Favorite, CartSection, InvoiceDetail, Invoicelist } from "./page-sections"
 import axios from "axios";
 
+//data tinh
+import { productsData, categoryData, shipData, paymentData } from "./theme";
+
 
 const baseUrl = 'http://localhost:3001/api/cart'
 
@@ -21,8 +24,8 @@ const App = () => {
   const [products, setProducts] = useState([]);
   const [searchText, setSearchText] = useState('');
   const [category, setCategory] = useState('');
-  const [categories, setCategories] = useState([]);
-  const [searchResults, setSearchResults] = useState([]);
+  const [categories, setCategories] = useState(categoryData);
+  const [searchResults, setSearchResults] = useState(productsData);
   const [favorites, setFavorites] = useState([]);
   const [shippingMethods, setShippingMethods] = useState([]);
   const [paymentMethods, setPaymentMethods] = useState([]);
