@@ -100,7 +100,7 @@ const Checkout = ({
             {userCart.map((item) => (
               <li key={item.product.id}>
                 <div className="product">
-                  <img src={`http://localhost:3001/${item.product.image}`} alt="img" />
+                  <img src={item.product.image} alt="img" />
                   <div className="info">
                     <p className="name">{item.product.name}</p>
                     <p className="price">

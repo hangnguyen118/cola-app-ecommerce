@@ -125,7 +125,7 @@ const InVoiceDetail = ({user}) => {
                                 <tr key={item.product.id}>
                                     <td>{item.product.id}</td>
                                     <td>{item.product.name}</td>
-                                    <td><img style={{ width: 80 }} src={`http://localhost:3001/${item.product.image}`} alt="product" /></td>
+                                    <td><img style={{ width: 80 }} src={item.product.image} alt="product" /></td>
                                     <td>{item.quantity}</td>
                                 </tr>
                             )

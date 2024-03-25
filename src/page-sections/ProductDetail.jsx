@@ -4,7 +4,7 @@ const ProductDetail = ({ productId, name, price, category, total, describe, imag
             <div style={{display: 'flex'}}>
                 <div className="wrap-left">
                     <div className="product-img">
-                    <img src={`http://localhost:3001/${image}`} alt="productImage" width={400}/>
+                    <img src={image} alt="productImage" width={400}/>
                     </div>
                 </div>
                 <div className="wrap-right">

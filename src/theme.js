@@ -385,3 +385,63 @@ const user1 = [
         "_id": "660042f2a87528a963f6ef04"
     }
 ]
+
+export const favoriteList = [
+  {
+    name: "Điện thoại Vivo V27e",
+    price: 84,
+    categoriesName: "Điện thoại",
+    image: "/assets/images/product_1.webp",
+    total: 34,
+    describe:
+      "Vivo V27e là thiết bị thuộc dòng V27 series mới nhất của Vivo. Thiết bị được ra mắt với mức giá tốt, nhiều tính năng hấp dẫn cũng như là trang bị cụm camera chất lượng cao có hỗ trợ chống rung OIS.",
+    isActive: false,
+    user: "646c921ebb30edcda07a4fd2",
+    id: "64731ef44b53dd6976b6e4b4",
+  },
+  {
+    name: "Điện thoại Samsung Galaxy A54 5G 128GBBBB",
+    price: 54,
+    categoriesName: "Điện thoại",
+    image: "/assets/images/product_2.webp",
+    total: 27,
+    describe:
+      "Samsung vừa tung ra thị trường mẫu điện thoại thông minh Samsung Galaxy A54 5G 128GB vào tháng 03/2023. Đây là một sản phẩm tầm trung đáng chú ý, được trang bị màn hình Super AMOLED hiện đại và sử dụng con chip Exynos 1380 do Samsung sản xuất.",
+    isActive: true,
+    user: "646c921ebb30edcda07a4fd2",
+    id: "64731fa84b53dd6976b6e4dd",
+  },
+]
+
+export const cartList = [
+  {
+    product: {
+      name: "Điện thoại Samsung Galaxy A54 5G 128GBBBB",
+      price: 54,
+      categoriesName: "Điện thoại",
+      image: "/assets/images/product_2.webp",
+      total: 27,
+      describe:
+        "Samsung vừa tung ra thị trường mẫu điện thoại thông minh Samsung Galaxy A54 5G 128GB vào tháng 03/2023. Đây là một sản phẩm tầm trung đáng chú ý, được trang bị màn hình Super AMOLED hiện đại và sử dụng con chip Exynos 1380 do Samsung sản xuất.",
+      isActive: true,
+      user: "646c921ebb30edcda07a4fd2",
+      id: "64731fa84b53dd6976b6e4dd",
+    },
+    quantity: 1,
+  },
+  {
+    product: {
+      name: "Điện thoại Vivo V27e",
+      price: 84,
+      categoriesName: "Điện thoại",
+      image: "/assets/images/product_1.webp",
+      total: 34,
+      describe:
+        "Vivo V27e là thiết bị thuộc dòng V27 series mới nhất của Vivo. Thiết bị được ra mắt với mức giá tốt, nhiều tính năng hấp dẫn cũng như là trang bị cụm camera chất lượng cao có hỗ trợ chống rung OIS.",
+      isActive: false,
+      user: "646c921ebb30edcda07a4fd2",
+      id: "64731ef44b53dd6976b6e4b4",
+    },
+    quantity: 2
+  }
+]
